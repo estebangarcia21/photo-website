@@ -1,0 +1,16 @@
+{
+  "name": "photo-website",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/estebangarcia21/photo-website.git",
+  "author": "Esteban Garcia <estebangarcia2121@gmail.com>",
+  "license": "MIT",
+  "source": "src/index.html",
+  "scripts": {
+    "dev": "parcel",
+    "build": "parcel build"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0-rc.0"
+  }
+}
