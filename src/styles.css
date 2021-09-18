@@ -1,8 +1,27 @@
 @tailwind base;
 @tailwind utilities;
-@tailwind screens;
 
 * {
   margin: 0;
   padding: 0;
+}
+
+h1 {
+  font-family: 'Dancing Script', cursive;
+}
+
+h2 {
+  font-family: 'Cinzel', serif;
+}
+
+/* Navbar items */
+.nav-link-area {
+  @apply flex flex-row space-x-10 justify-center;
+}
+
+.w-restrict {
+  @apply mx-auto max-w-6xl;
+}
+
+.nav-button {
 }
