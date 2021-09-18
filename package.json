@@ -7,7 +7,7 @@
   "license": "MIT",
   "source": "src/index.html",
   "scripts": {
-    "dev": "parcel",
+    "dev": "parcel serve ./src/index.html",
     "build": "parcel build"
   },
   "devDependencies": {

@@ -24,4 +24,5 @@ h2 {
 }
 
 .nav-button {
+  @apply w-64;
 }
