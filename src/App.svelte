@@ -26,8 +26,8 @@
         </h1>
 
         <div class="flex flex-row mx-auto mt-8 h-32 space-x-20">
-          <DisplayItem name="Business Card" image="business_card.png" />
-          <DisplayItem name="Logo" image="pik.png" />
+          <DisplayItem name="Business Card" image="images/business_card.png" />
+          <DisplayItem name="Logo" image="images/pik.png" />
         </div>
 
         <h1 class="mt-24 text-gray-600 italic text-sm">
