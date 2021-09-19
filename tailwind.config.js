@@ -1,6 +1,6 @@
 module.exports = {
   mode: 'jit',
-  purge: ['./src/**/*.html'],
+  purge: ['src/**/*.svelte'],
   darkMode: false,
   theme: {
     extend: {}
@@ -9,4 +9,4 @@ module.exports = {
     extend: {}
   },
   plugins: []
-}
+};
