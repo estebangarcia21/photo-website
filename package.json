@@ -21,6 +21,7 @@
     "tailwindcss": "npm:@tailwindcss/postcss7-compat"
   },
   "dependencies": {
+    "fs": "^0.0.1-security",
     "sirv-cli": "^1.0.0",
     "svelte-preprocess": "^4.9.4"
   }
