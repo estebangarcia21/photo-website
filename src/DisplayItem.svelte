@@ -3,7 +3,9 @@
   export let image;
 </script>
 
-<div class="w-max mx-auto">
-  <h1 class="mb-2 mt-4 uppercase font-semibold text-left">{name}</h1>
-  <img src={image} alt={image} class="inline-block h-full" />
+<div class="flex flex-col space-y-4">
+  <h1 class="uppercase font-semibold text-left">{name}</h1>
+  <div class="">
+    <img src={image} alt={image} class="h-32" />
+  </div>
 </div>
