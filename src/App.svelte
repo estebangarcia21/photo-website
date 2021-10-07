@@ -6,19 +6,27 @@
 
 <main>
   <div class="flex flex-row h-screen">
-    <div class="h-full w-1/2 overflow-hidden">
-      <div class="h-2 bg-gradient-to-r from-fuchsia-300 to-violet-300" />
-      <nav class="h-20 bg-black">
-        <ul class="flex flex-row items-center h-full justify-center space-x-20">
-          <NavbarItem name="Home" />
-          <NavbarItem name="About" />
-          <NavbarItem name="Photos" />
-          <NavbarItem name="Contract" />
-        </ul>
-      </nav>
+    <div class="h-full w-1/2 overflow-hidden relative">
+      <div class="absolute top-0 left-[0%] w-full">
+        <div class="h-2 bg-gradient-to-r from-fuchsia-300 to-violet-300" />
+        <nav class="h-20 bg-black">
+          <ul
+            class="flex flex-row items-center h-full justify-center space-x-20"
+          >
+            <NavbarItem name="Home" />
+            <NavbarItem name="About" />
+            <NavbarItem name="Photos" />
+            <NavbarItem name="Contract" />
+          </ul>
+        </nav>
+      </div>
       <div
-        class="h-full text-white text-center bg-black flex flex-col justify-center"
+        class="h-full text-white text-center bg-black flex flex-col justify-cwenter"
       >
+        <div class="w-max mx-auto mb-12">
+          <DisplayItem name="" image="images/pik.png" />
+        </div>
+
         <h1 class="uppercase font-semibold text-4xl">Esteban Garcia</h1>
 
         <h1 class="mt-4 text-lg uppercase font-medium">
@@ -26,8 +34,14 @@
         </h1>
 
         <div class="flex flex-row mx-auto mt-8 h-32 space-x-20">
-          <DisplayItem name="Business Card" image="images/business_card.png" />
-          <DisplayItem name="Logo" image="images/pik.png" />
+          <DisplayItem
+            name="Business Card (Front)"
+            image="images/business_card.png"
+          />
+          <DisplayItem
+            name="Business Card (Back)"
+            image="images/business_card_back.png"
+          />
         </div>
 
         <h1 class="mt-24 text-gray-600 italic text-sm">
